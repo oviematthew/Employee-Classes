@@ -94,6 +94,6 @@ public class Supervisor extends Employee{
         String.format("\n%-20s $%,.2f\n", "Salary:", salary) +
         String.format("%-20s %d%%\n", "Production Rate:", productionRate) +
         String.format("%-20s $%,.2f\n", "Gross Pay:", calculateGrossPay())+
-        String.format("%-20s $%,.2f\n", "Net Pay:", calculateNetPay());
+        String.format("%-20s $%,.2f", "Net Pay:", calculateNetPay());
     }
 }

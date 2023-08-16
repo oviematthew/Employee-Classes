@@ -10,6 +10,7 @@ public class EmployeeTester {
     public static void main(String[] args) throws Exception {
        
         // Write a brief message to the screen for the current week
+        System.out.println();
         System.out.println("Employee Tester for Week 1");
         System.out.println("-----------------------------------------------");
 
